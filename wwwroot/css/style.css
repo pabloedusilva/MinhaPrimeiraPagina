@@ -1,0 +1,28 @@
+.img-personalizada {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.2);
+    max-width: 150px;
+    height: auto;
+    margin: 0;
+}
+
+.img-personalizada:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.img-personalizada:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+.icon-personalizado {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.icon-personalizado:hover {
+    transform: scale(1.1);
+}
